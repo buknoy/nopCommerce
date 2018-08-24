@@ -1,0 +1,11 @@
+﻿{
+  "Group": "Payment methods",
+  "FriendlyName": "Oxipay",
+  "SystemName": "Payments.Oxipay",
+  "Version": "1.00",
+  "SupportedVersions": [ "4.10" ],
+  "Author": "Flexigroup Ltd",
+  "DisplayOrder": 1,
+  "FileName": "Nop.Plugin.Payments.Oxipay.dll",
+  "Description": "This plugin allows paying with Oxipay"
+}
