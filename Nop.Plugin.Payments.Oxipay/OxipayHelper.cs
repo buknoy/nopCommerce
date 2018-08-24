@@ -15,7 +15,7 @@ namespace Nop.Plugin.Payments.Oxipay
         public static string NopCommercePartnerCode => "nopCommerce_SP";
 
         /// <summary>
-        /// Get the generic attribute name that is used to store an order total that actually sent to PayPal (used to PDT order total validation)
+        /// Get the generic attribute name that is used to store an order total that actually sent to Oxipay
         /// </summary>
         public static string OrderTotalSentToOxipay => "OrderTotalSentToOxipay";
 
@@ -26,8 +26,8 @@ namespace Nop.Plugin.Payments.Oxipay
         /// <summary>
         /// Gets a payment status
         /// </summary>
-        /// <param name="paymentStatus">PayPal payment status</param>
-        /// <param name="pendingReason">PayPal pending reason</param>
+        /// <param name="paymentStatus">Oxipay payment status</param>
+        /// <param name="pendingReason">Oxipay pending reason</param>
         /// <returns>Payment status</returns>
         public static PaymentStatus GetPaymentStatus(string paymentStatus, string pendingReason)
         {
